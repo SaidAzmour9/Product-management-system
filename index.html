@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <h1>Product Management System</h1>
-        <p>cruds</p>
+        <p>By Said Azmour</p>
     </div>
     <div class="inputs">
         <input type="text" name="title" id="title" placeholder="title">
@@ -27,10 +27,10 @@
     </div>
     <div class="outputs">
         <div class="serchBlock">
-            <input type="text" id="search" placeholder="search">
+            <input type="text" id="search" placeholder="search" onkeyup="searchData(this.value)">
             <div class="btnSearch">
-                <button id="searchTitle"> Search by title</button>
-                <button id="searchCategory"> Search by category</button>
+                <button onclick="getSearchData(this.id)" id="searchTitle"> Search by title</button>
+                <button onclick="getSearchData(this.id)" id="searchCategory"> Search by category</button>
 
             </div>
         </div>

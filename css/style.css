@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #111;
+    background-color: #301515;
     color: #fff ;
     text-align: center;
     width: 80%;
     margin: auto;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif; 
 }
 
 input{
@@ -61,3 +64,15 @@ table{
     text-align: center;
     margin: 20px 0;
 }
+
+@media (max-width: 700px) {
+    body{
+        text-align: center;
+        width: 97%;
+        margin: auto;   
+    }
+    .price input{
+        width: 30%;   
+    }
+  }
+  
