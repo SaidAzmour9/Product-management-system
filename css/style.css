@@ -12,6 +12,10 @@ body{
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif; 
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 input{
     background-color: #000;
@@ -62,8 +66,15 @@ button:hover{
 table{
     width: 100%;
     text-align: center;
-    margin: 20px 0;
+    margin: 40px 0 130px 0;
 }
+.footer-content{
+    border-top: #000 2px solid;
+    padding: 15px 0;
+    text-align: center;
+    
+}
+
 
 @media (max-width: 700px) {
     body{
